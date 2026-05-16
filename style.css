@@ -531,3 +531,86 @@ body {
   column-gap: 0.7rem;
   transition: 0.4s;
 }
+/* Section */
+
+.projects {
+
+  padding: 200px;
+
+}
+
+.back {
+
+  color: #ff4d4d;
+
+  text-decoration: none;
+
+  display: inline-block;
+
+  margin-bottom: 20px;
+
+}
+
+h1 {
+
+  font-size: 48px;
+
+  margin-bottom: 10px;
+
+}
+
+.subtitle {
+
+  color: #bbb;
+
+  margin-bottom: 30px;
+
+}
+
+/* Buttons */
+
+.buttons {
+
+  display: flex;
+
+  gap: 15px;
+
+  flex-wrap: wrap;
+
+}
+
+button {
+
+  padding: 10px 20px;
+
+  border-radius: 30px;
+
+  border: 2px solid #ff4d4d;
+
+  background: transparent;
+
+  color: #fff;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+
+}
+
+button:hover {
+
+  background: #ff4d4d;
+
+  color: #fff;
+
+}
+
+button.active {
+
+  background: linear-gradient(45deg, #ff4d4d, #fff);
+
+  color: #000;
+
+  border: none;
+}
+
